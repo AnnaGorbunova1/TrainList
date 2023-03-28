@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Root>
+  <row>
+    <TrainNumber>2236</TrainNumber>
+    <TrainIndexCombined>86560-725-98470</TrainIndexCombined>
+    <FromStationName>САРБАЛА</FromStationName>
+    <ToStationName>НАХОДКА (ЭКСП.)</ToStationName>
+    <LastStationName>ЧЕРНОРЕЧЕНСКАЯ</LastStationName>
+    <WhenLastOperation>30.06.2019 14:07:00</WhenLastOperation>
+    <LastOperationName>ОТПРАВЛЕНИЕ  ВАГОНА В СОСТАВЕ ПОЕЗДА СО СТАНЦИИ</LastOperationName>
+    <InvoiceNum>ЭЛ598121</InvoiceNum>
+    <PositionInTrain>33</PositionInTrain>
+    <CarNumber>63731863</CarNumber>
+    <FreightEtsngName>УГОЛЬ КАМЕННЫЙ МАРКИ Т-ТОЩИЙ</FreightEtsngName>
+    <FreightTotalWeightKg>74700</FreightTotalWeightKg>
+  </row>
+  <row>
+    <TrainNumber>2168</TrainNumber>
+    <TrainIndexCombined>86560-925-98570</TrainIndexCombined>
+    <FromStationName>САРБАЛА</FromStationName>
+    <ToStationName>МЫС АСТАФЬЕВА (ЭКСП.)</ToStationName>
+    <LastStationName>КИРБА</LastStationName>
+    <WhenLastOperation>30.06.2019 14:49:00</WhenLastOperation>
+    <LastOperationName>ПРИБЫТИЕ ВАГОНА В СОСТАВЕ  ПОЕЗДА НА СТАНЦИЮ</LastOperationName>
+    <InvoiceNum>ЭЛ635046</InvoiceNum>
+    <PositionInTrain>16</PositionInTrain>
+    <CarNumber>63713465</CarNumber>
+    <FreightEtsngName>УГОЛЬ КАМЕННЫЙ МАРКИ Т-ТОЩИЙ</FreightEtsngName>
+    <FreightTotalWeightKg>74700</FreightTotalWeightKg>
+  </row>
+  <row>
+    <TrainNumber>2226</TrainNumber>
+    <TrainIndexCombined>86380-177-98570</TrainIndexCombined>
+    <FromStationName>ЧЕРКАСОВ КАМЕНЬ</FromStationName>
+    <ToStationName>МЫС АСТАФЬЕВА (ЭКСП.)</ToStationName>
+    <LastStationName>НОВАЯ</LastStationName>
+    <WhenLastOperation>30.06.2019 14:35:00</WhenLastOperation>
+    <LastOperationName>ОТПРАВЛЕНИЕ  ВАГОНА В СОСТАВЕ ПОЕЗДА СО СТАНЦИИ</LastOperationName>
+    <InvoiceNum>ЭЛ305719</InvoiceNum>
+    <PositionInTrain>23</PositionInTrain>
+    <CarNumber>63678486</CarNumber>
+    <FreightEtsngName>УГОЛЬ КАМЕННЫЙ МАРКИ Т-ТОЩИЙ</FreightEtsngName>
+    <FreightTotalWeightKg>74950</FreightTotalWeightKg>
+  </row>
+  <row>
+    <TrainNumber>2226</TrainNumber>
+    <TrainIndexCombined>86380-177-98570</TrainIndexCombined>
+    <FromStationName>ЧЕРКАСОВ КАМЕНЬ</FromStationName>
+    <ToStationName>МЫС АСТАФЬЕВА (ЭКСП.)</ToStationName>
+    <LastStationName>НОВАЯ</LastStationName>
+    <WhenLastOperation>30.06.2019 14:35:00</WhenLastOperation>
+    <LastOperationName>ОТПРАВЛЕНИЕ  ВАГОНА В СОСТАВЕ ПОЕЗДА СО СТАНЦИИ</LastOperationName>
+    <InvoiceNum>ЭЛ314035</InvoiceNum>
+    <PositionInTrain>41</PositionInTrain>
+    <CarNumber>63676878</CarNumber>
+    <FreightEtsngName>УГОЛЬ КАМЕННЫЙ МАРКИ Т-ТОЩИЙ</FreightEtsngName>
+    <FreightTotalWeightKg>74950</FreightTotalWeightKg>
+  </row>
+  <row>
+    <TrainNumber>2236</TrainNumber>
+    <TrainIndexCombined>86560-725-98470</TrainIndexCombined>
+    <FromStationName>САРБАЛА</FromStationName>
+    <ToStationName>НАХОДКА (ЭКСП.)</ToStationName>
+    <LastStationName>ЧЕРНОРЕЧЕНСКАЯ</LastStationName>
+    <WhenLastOperation>30.06.2019 14:07:00</WhenLastOperation>
+    <LastOperationName>ОТПРАВЛЕНИЕ  ВАГОНА В СОСТАВЕ ПОЕЗДА СО СТАНЦИИ</LastOperationName>
+    <InvoiceNum>ЭЛ598750</InvoiceNum>
+    <PositionInTrain>9</PositionInTrain>
+    <CarNumber>63671549</CarNumber>
+    <FreightEtsngName>УГОЛЬ КАМЕННЫЙ МАРКИ Т-ТОЩИЙ</FreightEtsngName>
+    <FreightTotalWeightKg>74700</FreightTotalWeightKg>
+  </row>
+  <row>
+    <TrainNumber>2236</TrainNumber>
+    <TrainIndexCombined>86560-725-98470</TrainIndexCombined>
+    <FromStationName>САРБАЛА</FromStationName>
+    <ToStationName>НАХОДКА (ЭКСП.)</ToStationName>
+    <LastStationName>ЧЕРНОРЕЧЕНСКАЯ</LastStationName>
+    <WhenLastOperation>30.06.2019 14:07:00</WhenLastOperation>
+    <LastOperationName>ОТПРАВЛЕНИЕ  ВАГОНА В СОСТАВЕ ПОЕЗДА СО СТАНЦИИ</LastOperationName>
+    <InvoiceNum>ЭЛ598750</InvoiceNum>
+    <PositionInTrain>10</PositionInTrain>
+    <CarNumber>63671408</CarNumber>
+    <FreightEtsngName>УГОЛЬ КАМЕННЫЙ МАРКИ Т-ТОЩИЙ</FreightEtsngName>
+    <FreightTotalWeightKg>74700</FreightTotalWeightKg>
+  </row>
+  <row>
+    <TrainNumber>2168</TrainNumber>
+    <TrainIndexCombined>86560-925-98570</TrainIndexCombined>
+    <FromStationName>САРБАЛА</FromStationName>
+    <ToStationName>МЫС АСТАФЬЕВА (ЭКСП.)</ToStationName>
+    <LastStationName>КИРБА</LastStationName>
+    <WhenLastOperation>30.06.2019 14:49:00</WhenLastOperation>
+    <LastOperationName>ПРИБЫТИЕ ВАГОНА В СОСТАВЕ  ПОЕЗДА НА СТАНЦИЮ</LastOperationName>
+    <InvoiceNum>ЭЛ634749</InvoiceNum>
+    <PositionInTrain>51</PositionInTrain>
+    <CarNumber>63670277</CarNumber>
+    <FreightEtsngName>УГОЛЬ КАМЕННЫЙ МАРКИ Т-ТОЩИЙ</FreightEtsngName>
+    <FreightTotalWeightKg>74700</FreightTotalWeightKg>
+  </row>
+</Root>

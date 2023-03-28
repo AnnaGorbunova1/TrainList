@@ -1,0 +1,12 @@
+/home/anna/RiderProjects/TrainList/TrainList.Model/bin/Debug/net6.0/TrainList.Model.deps.json
+/home/anna/RiderProjects/TrainList/TrainList.Model/bin/Debug/net6.0/TrainList.Model.dll
+/home/anna/RiderProjects/TrainList/TrainList.Model/bin/Debug/net6.0/ref/TrainList.Model.dll
+/home/anna/RiderProjects/TrainList/TrainList.Model/bin/Debug/net6.0/TrainList.Model.pdb
+/home/anna/RiderProjects/TrainList/TrainList.Model/obj/Debug/net6.0/TrainList.Model.csproj.AssemblyReference.cache
+/home/anna/RiderProjects/TrainList/TrainList.Model/obj/Debug/net6.0/TrainList.Model.GeneratedMSBuildEditorConfig.editorconfig
+/home/anna/RiderProjects/TrainList/TrainList.Model/obj/Debug/net6.0/TrainList.Model.AssemblyInfoInputs.cache
+/home/anna/RiderProjects/TrainList/TrainList.Model/obj/Debug/net6.0/TrainList.Model.AssemblyInfo.cs
+/home/anna/RiderProjects/TrainList/TrainList.Model/obj/Debug/net6.0/TrainList.Model.csproj.CoreCompileInputs.cache
+/home/anna/RiderProjects/TrainList/TrainList.Model/obj/Debug/net6.0/TrainList.Model.dll
+/home/anna/RiderProjects/TrainList/TrainList.Model/obj/Debug/net6.0/ref/TrainList.Model.dll
+/home/anna/RiderProjects/TrainList/TrainList.Model/obj/Debug/net6.0/TrainList.Model.pdb

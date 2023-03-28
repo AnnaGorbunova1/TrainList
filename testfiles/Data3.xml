@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContainerDTO>
+  <trainSheetDtos>
+    <trainNumber>2236</trainNumber>
+    <trainIndexCombined>86560-725-98470</trainIndexCombined>
+    <fromStationName>САРБАЛА</fromStationName>
+    <toStationName>НАХОДКА (ЭКСП.)</toStationName>
+    <lastStationName>ЧЕРНОРЕЧЕНСКАЯ</lastStationName>
+    <whenLastOperation>30.06.2019 14:07:00</whenLastOperation>
+    <lastOperationName>ОТПРАВЛЕНИЕ  ВАГОНА В СОСТАВЕ ПОЕЗДА СО СТАНЦИИ</lastOperationName>
+    <invoiceNum>ЭЛ598121</invoiceNum>
+    <positionInTrain>33</positionInTrain>
+    <carNumber>63731863</carNumber>
+    <freightEtsngName>УГОЛЬ КАМЕННЫЙ МАРКИ Т-ТОЩИЙ</freightEtsngName>
+    <freightTotalWeightKg>74700</freightTotalWeightKg>
+  </trainSheetDtos>
+</ContainerDTO>  
