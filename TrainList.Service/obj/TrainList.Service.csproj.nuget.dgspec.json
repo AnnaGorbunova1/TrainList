@@ -1,0 +1,193 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/anna/RiderProjects/TrainList/TrainList.Service/TrainList.Service.csproj": {}
+  },
+  "projects": {
+    "/home/anna/RiderProjects/TrainList/TrainList.Data/TrainList.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/anna/RiderProjects/TrainList/TrainList.Data/TrainList.Data.csproj",
+        "projectName": "TrainList.Data",
+        "projectPath": "/home/anna/RiderProjects/TrainList/TrainList.Data/TrainList.Data.csproj",
+        "packagesPath": "/home/anna/.nuget/packages/",
+        "outputPath": "/home/anna/RiderProjects/TrainList/TrainList.Data/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/anna/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/anna/RiderProjects/TrainList/TrainList.Model/TrainList.Model.csproj": {
+                "projectPath": "/home/anna/RiderProjects/TrainList/TrainList.Model/TrainList.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "GemBox.Spreadsheet": {
+              "target": "Package",
+              "version": "[49.0.1274, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0-preview.2.23128.3, )"
+            },
+            "Microsoft.Office.Interop.Excel": {
+              "target": "Package",
+              "version": "[15.0.4795.1001, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.0-preview.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.113/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/anna/RiderProjects/TrainList/TrainList.Model/TrainList.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/anna/RiderProjects/TrainList/TrainList.Model/TrainList.Model.csproj",
+        "projectName": "TrainList.Model",
+        "projectPath": "/home/anna/RiderProjects/TrainList/TrainList.Model/TrainList.Model.csproj",
+        "packagesPath": "/home/anna/.nuget/packages/",
+        "outputPath": "/home/anna/RiderProjects/TrainList/TrainList.Model/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/anna/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.113/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/anna/RiderProjects/TrainList/TrainList.Service/TrainList.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/anna/RiderProjects/TrainList/TrainList.Service/TrainList.Service.csproj",
+        "projectName": "TrainList.Service",
+        "projectPath": "/home/anna/RiderProjects/TrainList/TrainList.Service/TrainList.Service.csproj",
+        "packagesPath": "/home/anna/.nuget/packages/",
+        "outputPath": "/home/anna/RiderProjects/TrainList/TrainList.Service/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/anna/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/anna/RiderProjects/TrainList/TrainList.Data/TrainList.Data.csproj": {
+                "projectPath": "/home/anna/RiderProjects/TrainList/TrainList.Data/TrainList.Data.csproj"
+              },
+              "/home/anna/RiderProjects/TrainList/TrainList.Model/TrainList.Model.csproj": {
+                "projectPath": "/home/anna/RiderProjects/TrainList/TrainList.Model/TrainList.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.113/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
