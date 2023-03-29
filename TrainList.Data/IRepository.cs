@@ -8,5 +8,4 @@ public interface IRepository
     // TrainSheet GetFirst();
     TrainSheet GetByTrainNumber(string trainNumber);
     Task CreateTrainSheets(Root trainSheetDtoContainer);
-    string CreateExcel(string trainNumber);
 }

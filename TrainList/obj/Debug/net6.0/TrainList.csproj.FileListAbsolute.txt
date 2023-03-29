@@ -62,3 +62,5 @@
 /home/anna/RiderProjects/TrainList/TrainList/bin/Debug/net6.0/runtimes/win-arm64/native/libSkiaSharp.dll
 /home/anna/RiderProjects/TrainList/TrainList/bin/Debug/net6.0/runtimes/win-x64/native/libSkiaSharp.dll
 /home/anna/RiderProjects/TrainList/TrainList/bin/Debug/net6.0/runtimes/win-x86/native/libSkiaSharp.dll
+/home/anna/RiderProjects/TrainList/TrainList/bin/Debug/net6.0/TrainList.Service.dll
+/home/anna/RiderProjects/TrainList/TrainList/bin/Debug/net6.0/TrainList.Service.pdb

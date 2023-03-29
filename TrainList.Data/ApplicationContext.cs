@@ -1,7 +1,4 @@
-﻿
-
-using System.ComponentModel.DataAnnotations;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using TrainList.Model.Models;
 using DbContext = Microsoft.EntityFrameworkCore.DbContext;
 

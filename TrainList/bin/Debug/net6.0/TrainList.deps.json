@@ -13,7 +13,8 @@
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "6.0.12",
           "Microsoft.EntityFrameworkCore": "8.0.0-preview.2.23128.3",
           "Swashbuckle.AspNetCore": "6.2.3",
-          "TrainList.Data": "1.0.0"
+          "TrainList.Data": "1.0.0",
+          "TrainList.Service": "1.0.0"
         },
         "runtime": {
           "TrainList.dll": {}
@@ -425,6 +426,15 @@
         "runtime": {
           "TrainList.Model.dll": {}
         }
+      },
+      "TrainList.Service/1.0.0": {
+        "dependencies": {
+          "TrainList.Data": "1.0.0",
+          "TrainList.Model": "1.0.0"
+        },
+        "runtime": {
+          "TrainList.Service.dll": {}
+        }
       }
     }
   },
@@ -713,6 +723,11 @@
       "sha512": ""
     },
     "TrainList.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TrainList.Service/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

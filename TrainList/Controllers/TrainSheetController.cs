@@ -1,7 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
-using TrainList.Data;
 using TrainList.Model.DTO;
-using TrainList.Model.Models;
+using TrainList.Service.Interfaces;
 
 namespace TrainList.Controllers;
 
@@ -9,11 +8,11 @@ namespace TrainList.Controllers;
 [Route("[controller]")]
 public class TrainSheetController : ControllerBase
 {
-    private readonly IRepository _repo;
+    private readonly ITrainService _service;
 
-    public TrainSheetController(IRepository repo)
+    public TrainSheetController(ITrainService service)
     {
-        _repo = repo;
+        _service = service;
     }
 
     // [HttpGet(Name = "GetFirstTrainSheet")]
@@ -27,7 +26,7 @@ public class TrainSheetController : ControllerBase
     {
         if (isExcel)
         {
-            string file_path = _repo.CreateExcel(trainNumber);
+            string file_path = _service.GetTrainSheetExcel(trainNumber);
             // Тип файла - content-type
             string file_type = "application/xlsx";
             // Имя файла 
@@ -38,14 +37,14 @@ public class TrainSheetController : ControllerBase
             }
             return PhysicalFile(file_path, file_type, file_name);
         }
-        return new ObjectResult(_repo.GetByTrainNumber(trainNumber));
+        return new ObjectResult(_service.GetTrainSheet(trainNumber));
     }
 
     [HttpPost(Name = "PostTrainSheets")]
     [Consumes("application/xml")]
     public async Task<ActionResult> Post(Root testXmlModel)
     {
-        await _repo.CreateTrainSheets(testXmlModel);
+        await _service.CreateTrainSheets(testXmlModel);
         return CreatedAtAction("Post",new {processed = testXmlModel.TrainSheetDtos.Count});
     }
 }

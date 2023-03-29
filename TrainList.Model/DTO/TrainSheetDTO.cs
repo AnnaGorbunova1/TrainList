@@ -1,7 +1,4 @@
-using System.Runtime.Serialization;
 using System.Xml.Serialization;
-using System.Xml;
-using System.Xml.Schema;
 
 namespace TrainList.Model.DTO;
 

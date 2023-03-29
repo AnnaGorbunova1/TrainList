@@ -678,6 +678,20 @@
         "runtime": {
           "bin/placeholder/TrainList.Model.dll": {}
         }
+      },
+      "TrainList.Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "TrainList.Data": "1.0.0",
+          "TrainList.Model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TrainList.Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TrainList.Service.dll": {}
+        }
       }
     }
   },
@@ -1760,6 +1774,11 @@
       "type": "project",
       "path": "../TrainList.Model/TrainList.Model.csproj",
       "msbuildProject": "../TrainList.Model/TrainList.Model.csproj"
+    },
+    "TrainList.Service/1.0.0": {
+      "type": "project",
+      "path": "../TrainList.Service/TrainList.Service.csproj",
+      "msbuildProject": "../TrainList.Service/TrainList.Service.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -1769,7 +1788,8 @@
       "Microsoft.AspNetCore.Mvc.NewtonsoftJson >= 6.0.12",
       "Microsoft.EntityFrameworkCore >= 8.0.0-preview.2.23128.3",
       "Swashbuckle.AspNetCore >= 6.2.3",
-      "TrainList.Data >= 1.0.0"
+      "TrainList.Data >= 1.0.0",
+      "TrainList.Service >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1799,6 +1819,9 @@
           "projectReferences": {
             "/home/anna/RiderProjects/TrainList/TrainList.Data/TrainList.Data.csproj": {
               "projectPath": "/home/anna/RiderProjects/TrainList/TrainList.Data/TrainList.Data.csproj"
+            },
+            "/home/anna/RiderProjects/TrainList/TrainList.Service/TrainList.Service.csproj": {
+              "projectPath": "/home/anna/RiderProjects/TrainList/TrainList.Service/TrainList.Service.csproj"
             }
           }
         }

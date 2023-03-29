@@ -23,6 +23,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\TrainList.Data\TrainList.Data.csproj" />
+      <ProjectReference Include="..\TrainList.Service\TrainList.Service.csproj" />
     </ItemGroup>
 
     <ItemGroup>
